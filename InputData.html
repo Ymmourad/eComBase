@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title> Product Information Input!</title>
+</head>
+<body>
+<form method = "POST" action = "connect.php">
+    <table>
+        <tr>
+            <td>Name Of Product :</td>
+            <td><input type="text" name = "NameofProduct"></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Type:</td>
+            <td>
+                <input type="radio" name="Type" value="GPU"> GPU
+                <input type="radio" name="Type" value="CPU"> CPU
+                <input type="radio" name="Type" value="TCG"> TCG
+                <input type="radio" name="Type" value="SHOE"> SHOE
+                <input type="radio" name="Type" value="Console"> CONSOLE
+                <input type="radio" name="Type" value="Other"> OTHER
+            </td>
+        </tr>
+        <td>Product SKU:</td>
+        <td><input type="text" name="SKU"></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td> Market Price:</td>
+            <td><input type="text" name="MarketPrice"></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+
+        <tr>
+            <td> Retail Price:</td>
+            <td><input type="text" name="RetailPrice"></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+        <tr>
+            <td> Height:</td>
+            <td><input type="text" name = "Height"></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+        <tr>
+            <td> Weight:</td>
+            <td><input type="text" name ="Weight"></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td> Width:</td>
+            <td><input type="text" name="Width"></td>
+        </tr>
+        <tr>
+            <td> Rarity/Scarcity:</td>
+            <td><input type="text" name="Rarity"></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Periodic Restock:</td>
+            <td>
+                <input type="radio" name="boolean1" value="PeriodicRestockT"> True
+                <input type="radio" name="boolean1" value="PeriodicRestockF"> False
+            </td>
+        </tr>
+        <tr>
+            <td>Random Restock:</td>
+            <td>
+                <input type="radio" name="boolean2" value="RandomRestockT"> True
+                <input type="radio" name="boolean2" value="RandomRestockF"> False
+            </td>
+        </tr>
+        <td>Refurbished:</td>
+        <td>
+            <input type="radio" name="boolean3" value="RefurbishedT"> True
+            <input type="radio" name="boolean3" value="RefurbishedF"> False
+        </td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Insert"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
